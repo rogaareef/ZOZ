@@ -1,103 +1,315 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="index,follow">
-<title data-ar="سياسة الخصوصية | AITools" data-en="Privacy Policy | AITools">سياسة الخصوصية | AITools</title>
-<meta id="metaDesc" name="description" content="سياسة خصوصية AITools: لا تخزين للمحتوى، حماية كاملة لبياناتك." data-ar="سياسة خصوصية AITools: لا تخزين للمحتوى، حماية كاملة لبياناتك." data-en="AITools Privacy Policy: No content storage, full data protection.">
-<meta name="keywords" content="privacy policy AITools">
-<link rel="canonical" href="https://yourdomain.com/privacy">
-<meta property="og:title" content="سياسة الخصوصية | AITools">
-<meta property="og:description" content="سياسة خصوصية AITools: لا تخزين للمحتوى، حماية كاملة لبياناتك.">
+<meta name="robots" content="index, follow">
+<title>Privacy Policy | ProScholersTools</title>
+<meta name="description" content="ProScholersTools privacy policy. We never store your research content or API keys. GDPR and CCPA compliant.">
+<meta name="keywords" content="privacy policy">
+<link rel="canonical" href="https://proscholerstools.com/privacy">
+<meta property="og:title" content="Privacy Policy | ProScholersTools">
+<meta property="og:description" content="ProScholersTools privacy policy. We never store your research content or API keys. GDPR and CCPA compliant.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://yourdomain.com/privacy">
+<meta property="og:url" content="https://proscholerstools.com/privacy">
+<meta property="og:site_name" content="ProScholersTools">
+<meta property="og:image" content="https://proscholerstools.com/images/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy | ProScholersTools">
+<meta name="twitter:description" content="ProScholersTools privacy policy. We never store your research content or API keys. GDPR and CCPA compliant.">
+<meta name="twitter:image" content="https://proscholerstools.com/images/og-default.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Privacy Policy","url":"https://proscholerstools.com/privacy"}</script>
+<!-- AdSense loaded after cookie consent only (GDPR compliant) -->
+
+<!-- Preconnect for performance -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6119422909390809" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1a1208;--bg:#f7f3eb;--card:#fff;--cream:#faf7f2;
+  --crimson:#8b1a1a;--crimson2:#a52020;--gold:#b8860b;--gold3:#e8b84b;
+  --teal:#1a5c7a;--border:#e8e0d0;--text:#3a2e1c;--text2:#6b5d4a;--text3:#9a8a72;
+  --r:6px;--nav-h:64px;--w:1140px;
+  --shadow:0 2px 14px rgba(26,18,8,.09);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--crimson);text-decoration:none}
+a:hover{text-decoration:underline}
+.w{max-width:var(--w);margin:0 auto;padding:0 24px}
+img{max-width:100%;height:auto}
+
+/* ── NAV ── */
+#nav{position:fixed;top:0;left:0;right:0;z-index:900;height:var(--nav-h);background:rgba(247,243,235,.97);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.n-inner{max-width:var(--w);margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:100%}
+.n-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.n-logo:hover{text-decoration:none}
+.n-crest{width:36px;height:36px;background:var(--crimson);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Crimson Pro',serif;font-size:18px;font-weight:700;flex-shrink:0}
+.n-brand{font-family:'Crimson Pro',serif;font-size:18px;font-weight:700;color:var(--ink);line-height:1}
+.n-tagline{font-family:'DM Mono',monospace;font-size:9px;color:var(--text3);letter-spacing:.5px;margin-top:2px}
+.n-links{display:flex;align-items:center;gap:6px}
+.n-link{color:var(--text2);font-size:13px;padding:6px 10px;border-radius:var(--r);transition:all .2s}
+.n-link:hover{background:var(--cream);color:var(--ink);text-decoration:none}
+
+
+.n-cta{background:var(--crimson);color:#fff;padding:8px 18px;border-radius:var(--r);font-size:13px;font-weight:600;border:none;cursor:pointer;transition:all .2s}
+.n-cta:hover{background:var(--crimson2)}
+
+/* ── USAGE BAR (top) ── */
+
+/* ── HERO ── */
+.tool-hero{padding:calc(var(--nav-h) + 80px) 0 44px;background:linear-gradient(135deg,#1a1208 0%,#2d1a0a 60%,#1a1a2e 100%)}
+
+/* ── TOOL PANEL ── */
+.tool-panel{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:var(--shadow);margin:32px 0}
+.tool-header{padding:18px 24px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px;background:var(--cream)}
+.tool-icon{width:44px;height:44px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.tool-meta h2{font-family:'Crimson Pro',serif;font-size:20px;font-weight:700;color:var(--ink)}
+.tool-meta p{font-size:12px;color:var(--text3);margin-top:3px}
+.tool-body{padding:24px}
+.f-label{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text3);margin-bottom:7px;margin-top:18px;display:block}
+.f-label:first-child{margin-top:0}
+.style-row{display:flex;gap:6px;flex-wrap:wrap}
+.sty-btn{padding:6px 13px;border-radius:20px;border:1px solid var(--border);background:var(--cream);color:var(--text2);font-size:11px;cursor:pointer;transition:all .18s;font-family:'DM Mono',monospace;white-space:nowrap}
+.sty-btn:hover,.sty-btn.on{background:var(--crimson);border-color:var(--crimson);color:#fff}
+select.src-sel{width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:var(--r);background:var(--cream);color:var(--text);font-size:13px;cursor:pointer;appearance:none}
+textarea.main-inp{width:100%;min-height:130px;padding:12px;border:1px solid var(--border);border-radius:var(--r);background:#fff;font-size:14px;color:var(--text);resize:vertical;font-family:'Inter',sans-serif;line-height:1.65;outline:none;transition:border .2s}
+textarea.main-inp:focus{border-color:var(--crimson)}
+.run-btn{margin-top:16px;width:100%;padding:13px;background:var(--crimson);color:#fff;border:none;border-radius:var(--r);font-size:14px;font-weight:600;cursor:pointer;transition:all .22s;display:flex;align-items:center;justify-content:center;gap:9px}
+.run-btn:hover:not(:disabled){background:var(--crimson2);transform:translateY(-1px);box-shadow:0 4px 16px rgba(139,26,26,.28)}
+.run-btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.out-area{margin-top:18px;background:var(--cream);border:1px solid var(--border);border-radius:var(--r);padding:16px;min-height:80px;font-size:14px;line-height:1.85;color:var(--text);white-space:pre-wrap;display:none}
+.out-area.show{display:block}
+.cit-box{margin-top:12px;background:#fff;border:2px solid var(--crimson);border-radius:var(--r);padding:14px 16px;display:none}
+.cit-box.show{display:block}
+.cit-label{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--crimson);margin-bottom:8px}
+.cit-content{font-family:'DM Mono',monospace;font-size:12px;line-height:1.8;color:var(--ink)}
+.copy-btn{margin-top:10px;padding:7px 16px;background:var(--cream);border:1px solid var(--border);border-radius:var(--r);font-size:11px;color:var(--text2);cursor:pointer;transition:all .18s;font-family:'DM Mono',monospace;display:none}
+.copy-btn:hover{background:var(--border)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{display:inline-block;width:13px;height:13px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite}
+
+/* ── POWERED BY (Anthropic compliance) ── */
+.powered-by{display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:9px;color:var(--text3);letter-spacing:.3px;margin-top:10px}
+.powered-by a{color:var(--text3);text-decoration:none}
+.powered-by a:hover{color:var(--crimson)}
+
+/* ── AD SLOTS ── */
+.ad{background:var(--cream);border:1px dashed var(--border);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-family:'DM Mono',monospace;font-size:10px;color:var(--text3);text-align:center;min-height:90px}
+
+/* ── CONTENT SECTIONS ── */
+.sec{padding:60px 0}
+.sec-label{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--text3);margin-bottom:10px;display:block}
+.sec-h{font-family:'Crimson Pro',serif;font-size:clamp(22px,3.5vw,34px);font-weight:700;color:var(--ink);margin-bottom:18px;line-height:1.25}
+.sec-p{font-size:15px;color:var(--text2);line-height:1.8;max-width:740px}
+.prose{font-size:15px;color:var(--text2);line-height:1.85}
+.prose h3{font-family:'Crimson Pro',serif;font-size:20px;font-weight:700;color:var(--ink);margin:28px 0 10px}
+.prose p{margin-bottom:14px}
+.prose ul{padding-left:20px;margin-bottom:14px}
+.prose ul li{margin-bottom:6px}
+.prose strong{color:var(--ink)}
+
+/* ── STEP BOXES ── */
+.steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-top:24px}
+.step{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:20px}
+.step-n{font-family:'Crimson Pro',serif;font-size:28px;font-weight:700;color:var(--crimson);line-height:1;margin-bottom:10px}
+.step h4{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:6px}
+.step p{font-size:12px;color:var(--text3);line-height:1.5}
+
+/* ── RELATED ── */
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-top:20px}
+.rel-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:18px;display:block;text-decoration:none;transition:all .22s}
+.rel-card:hover{border-color:var(--crimson);transform:translateY(-2px);box-shadow:var(--shadow);text-decoration:none}
+
+/* ── FAQ ── */
+.faq-item{border:1px solid var(--border);border-radius:var(--r);margin-bottom:10px;overflow:hidden;cursor:pointer}
+.faq-q{padding:16px 18px;display:flex;align-items:center;justify-content:space-between;font-weight:600;font-size:15px;color:var(--ink);background:var(--card)}
+.faq-tog{font-size:18px;color:var(--text3);transition:transform .2s;flex-shrink:0;margin-left:12px}
+.faq-a{padding:0 18px;max-height:0;overflow:hidden;transition:all .3s;font-size:14px;color:var(--text2);line-height:1.75}
+.faq-item.open .faq-a{max-height:400px;padding:0 18px 16px}
+.faq-item.open .faq-tog{transform:rotate(45deg)}
+
+/* ── COOKIE BANNER ── */
+#cookieBanner{display:none;position:fixed;bottom:0;left:0;right:0;z-index:850;background:#1a1208;border-top:2px solid var(--gold);padding:13px 24px;box-shadow:0 -4px 20px rgba(0,0,0,.3)}
+
+/* ── BREADCRUMB ── */
+.breadcrumb{font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.4);margin-bottom:12px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.breadcrumb a{color:rgba(255,255,255,.4);text-decoration:none}
+.breadcrumb a:hover{color:rgba(255,255,255,.7)}
+.breadcrumb span{color:rgba(255,255,255,.25)}
+
+/* ── FOOTER ── */
+footer{background:var(--ink);color:rgba(255,255,255,.5);padding:52px 0 24px}
+.footer-inner{max-width:var(--w);margin:0 auto;padding:0 24px}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:44px;margin-bottom:44px}
+.footer-brand{font-family:'Crimson Pro',serif;font-size:20px;font-weight:700;color:#fff;margin-bottom:8px}
+.footer-desc{font-size:13px;line-height:1.7;color:rgba(255,255,255,.4);margin-bottom:12px}
+.footer-col h4{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:14px}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,.5);margin-bottom:8px;text-decoration:none;transition:color .2s}
+.footer-col a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;display:flex;justify-content:space-between;align-items:center;font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.3);flex-wrap:wrap;gap:10px}
+.powered-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:5px 12px;border-radius:20px;font-family:'DM Mono',monospace;font-size:9px;color:rgba(255,255,255,.45);margin-top:10px}
+.powered-badge a{color:rgba(255,255,255,.55);text-decoration:none}
+.powered-badge a:hover{color:#fff}
+
+/* ── MOBILE ── */
+@media(max-width:900px){
+  .n-links .n-link{display:none}
+  .footer-top{grid-template-columns:1fr 1fr}
+}
+@media(max-width:540px){
+  .footer-top{grid-template-columns:1fr}
+  .related-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+}
+</style>
 </head>
 <body>
-<nav class="nav">
-<div class="w nav-i">
-  <a href="/" class="nav-logo">
-    <div class="nav-logo-mark">🤖</div>
-    <div class="nav-logo-name">AI<em>Tools</em></div>
-  </a>
-  <div class="nav-links">
-    <a href="/" class="nav-a" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
-    <a href="/#tools" class="nav-a" data-ar="الأدوات" data-en="Tools">الأدوات</a>
-    <a href="/blog/" class="nav-a" data-ar="المقالات" data-en="Blog">المقالات</a>
-    <a href="/pricing.html" class="nav-a" data-ar="الاشتراكات" data-en="Pricing">الاشتراكات</a>
-    <a href="/about.html" class="nav-a" data-ar="من نحن" data-en="About">من نحن</a>
+<nav id="nav">
+  <div class="n-inner">
+    <a href="/" class="n-logo" aria-label="ProScholersTools Home">
+      <div class="n-crest" aria-hidden="true">S</div>
+      <div>
+        <div class="n-brand"><em>Scholers</em>Tools</div>
+        <div class="n-tagline">28 Free AI Academic Tools</div>
+      </div>
+    </a>
+    <div class="n-links">
+      <a class="n-link" href="/tools">All Tools</a>
+      <a class="n-link" href="/blog">Blog</a>
+      <a class="n-link" href="/about">About</a>
+      <a class="n-link" href="/contact">Contact</a>
+      <button class="n-cta" onclick="location.href='/tools'" aria-label="Browse all tools">Browse Tools →</button>
+    </div>
   </div>
-  <div class="nav-r">
-    <button class="lang-btn" aria-label="Switch language">🌐 English</button>
-    <a href="/pricing.html" class="nav-pro" data-ar="🚀 Pro" data-en="🚀 Go Pro">🚀 Pro</a>
-    <button class="nav-mb" onclick="toggleNav()" aria-label="Menu">☰</button>
-  </div>
-</div>
 </nav>
-<div id="cb">
-  <p data-ar="نستخدم كوكيز لتحسين تجربتك. محتواك لا يُخزَّن أبداً على خوادمنا." data-en="We use cookies to improve your experience. Your content is never stored on our servers.">نستخدم كوكيز لتحسين تجربتك. محتواك لا يُخزَّن أبداً على خوادمنا.</p>
-  <div class="cb-row">
-    <button class="cb-btn a" onclick="ck('all')" data-ar="قبول الكل" data-en="Accept All">قبول الكل</button>
-    <button class="cb-btn d" onclick="ck('ess')" data-ar="الأساسية فقط" data-en="Essential Only">الأساسية فقط</button>
+
+<!-- COOKIE CONSENT (GDPR / CCPA) -->
+<div id="cookieBanner" role="dialog" aria-label="Cookie consent">
+  <div style="max-width:1140px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+    <p style="font-size:12px;color:rgba(255,255,255,.7);line-height:1.6;margin:0;flex:1;min-width:200px">
+      🍪 We use cookies for analytics and advertising to keep ProScholersTools free.
+      Your research content is <strong style="color:#fff">never stored</strong>.
+      <a href="/privacy" style="color:var(--gold3)">Privacy Policy</a>
+    </p>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button onclick="acceptCookies('essential')" style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.65);padding:7px 14px;border-radius:4px;font-size:11px;cursor:pointer">Essential Only</button>
+      <button onclick="acceptCookies('all')" style="background:var(--gold);border:none;color:#000;padding:7px 18px;border-radius:4px;font-size:11px;font-weight:700;cursor:pointer">Accept All</button>
+    </div>
   </div>
 </div>
-<section style="padding:calc(var(--nav-h)+52px) 0 60px">
-<div class="w" style="max-width:760px">
-  <h1 class="s-h" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</h1>
-  <div style="font-size:14px;color:var(--text2);line-height:1.9">
-    <h2 style="font-size:18px;font-weight:700;color:var(--text);margin:24px 0 10px" data-ar="جمع البيانات" data-en="Data Collection">جمع البيانات</h2>
-    <p data-ar="لا نخزن المحتوى الذي تُدخله في أدواتنا. تُعالَج المدخلات فورياً وتُرسل لـ Google Gemini API ثم تُحذف تلقائياً." data-en="We do not store the content you enter in our tools. Inputs are processed instantly, sent to Google Gemini API, then automatically deleted.">لا نخزن المحتوى الذي تُدخله في أدواتنا.</p>
-    <h2 style="font-size:18px;font-weight:700;color:var(--text);margin:24px 0 10px" data-ar="ملفات تعريف الارتباط" data-en="Cookies">ملفات تعريف الارتباط</h2>
-    <p data-ar="نستخدم localStorage لتخزين تفضيلات اللغة والحد اليومي فقط. لا نشارك بياناتك مع أطراف ثالثة." data-en="We use localStorage to store language preferences and daily limits only. We do not share your data with third parties.">نستخدم localStorage لتخزين تفضيلات اللغة والحد اليومي فقط.</p>
-    <h2 style="font-size:18px;font-weight:700;color:var(--text);margin:24px 0 10px" data-ar="التعديلات" data-en="Updates">التعديلات</h2>
-    <p data-ar="قد نحدّث هذه السياسة. آخر تحديث: يناير 2025." data-en="We may update this policy. Last updated: January 2025.">قد نحدّث هذه السياسة. آخر تحديث: يناير 2025.</p>
-  </div>
-</div>
-</section>
+<section style="background:var(--ink);padding:calc(var(--nav-h) + 52px) 0 36px"><div class="w">
+  <h1 style="font-family:'Crimson Pro',serif;font-size:clamp(24px,4vw,40px);font-weight:700;color:#fff">Privacy Policy</h1>
+</div></section>
+<section class="sec"><div class="w" style="max-width:780px">
+<p style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text3);margin-bottom:28px">Last updated: March 8, 2026</p>
+<div class="prose">
+<h3>What We Collect</h3><p>We collect minimal data: (1) Anonymous usage analytics via Google Analytics — page views, country, browser type. (2) Contact form submissions (name, email, message) stored securely and never shared with third parties. We do NOT collect your research content, citations, legal briefs, or any content you enter into our tools.</p><h3>API Keys</h3><p>Your Anthropic API key is stored ONLY in your browser's localStorage. It is never transmitted to our servers in a stored form and we have no ability to access it. API requests sent through our proxy do not log your key.</p><h3>Cookies</h3><p>We use cookies for: (1) Google Analytics (anonymous usage data). (2) Google AdSense (advertising). (3) Your free usage count (server-side cookie — anonymous, no personal data). You can disable cookies in your browser at any time.</p><h3>Third Parties</h3><p>We use: Anthropic (AI processing — <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">their privacy policy</a>), Google Analytics (anonymous analytics), Google AdSense (advertising), Netlify (hosting). We do not sell your data to any third party under any circumstances.</p><h3>Your Rights (GDPR / CCPA)</h3><p>You have the right to access, rectify, or delete any personal data we hold. Contact us at gogo24173@gmail.com for any data requests. EU and California residents may exercise additional rights under GDPR and CCPA respectively.</p><h3>Data Retention</h3><p>Contact form messages: 90 days. Analytics data: 26 months (Google Analytics default). AI-generated content: never stored.</p><h3>Contact</h3><p>Privacy questions or data requests: <a href="mailto:gogo24173@gmail.com">gogo24173@gmail.com</a></p>
+</div></div></section>
+
 <footer>
-<div class="w">
-  <div class="ft-grid">
-    <div>
-      <div class="ft-brand">AI<em>Tools</em></div>
-      <p class="ft-desc" data-ar="20 أداة ذكاء اصطناعي مجانية ثنائية اللغة. مدعومة بـ Google Gemini AI المجاني." data-en="20 free bilingual AI tools. Powered by Google Gemini AI (free tier).">20 أداة ذكاء اصطناعي مجانية ثنائية اللغة. مدعومة بـ Google Gemini AI المجاني.</p>
-      <div class="ft-gemini">Powered by <span>Google Gemini AI</span> — Free Tier</div>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">ProScholersTools</div>
+        <p class="footer-desc">Free AI-powered academic tools for students, researchers, lawyers, and teachers. Cite correctly, write stronger, research smarter.</p>
+        <div class="powered-badge">
+          Powered by <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude AI by Anthropic</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Citations</h4>
+        <a href="/chicago-citation-generator">Chicago</a>
+        <a href="/apa-citation-generator">APA 7th</a>
+        <a href="/mla-citation-generator">MLA 9th</a>
+        <a href="/footnote-formatter">Footnotes</a>
+        <a href="/bibliography-builder">Bibliography</a>
+      </div>
+      <div class="footer-col">
+        <h4>Research & Legal</h4>
+        <a href="/thesis-statement-generator">Thesis Generator</a>
+        <a href="/literature-review-writer">Lit Review</a>
+        <a href="/legal-case-brief">Legal Case Brief</a>
+        <a href="/legal-memorandum-writer">Legal Memo</a>
+        <a href="/lesson-plan-generator">Lesson Plans</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/about">About Us</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact">Contact</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+        <a href="/tools">All 28 Tools</a>
+      </div>
     </div>
-    <div class="ft-col">
-      <h4 data-ar="أدوات الكتابة" data-en="Writing Tools">أدوات الكتابة</h4>
-      <a href="/paraphrasing.html" data-ar="إعادة الصياغة" data-en="Paraphrasing">إعادة الصياغة</a>
-      <a href="/summarizer.html" data-ar="تلخيص النصوص" data-en="Text Summarizer">تلخيص النصوص</a>
-      <a href="/grammar-checker.html" data-ar="مدقق النحو" data-en="Grammar Checker">مدقق النحو</a>
-      <a href="/blog-writer.html" data-ar="كاتب المدونات" data-en="Blog Writer">كاتب المدونات</a>
-      <a href="/email-writer.html" data-ar="كاتب البريد" data-en="Email Writer">كاتب البريد</a>
-    </div>
-    <div class="ft-col">
-      <h4 data-ar="الأدوات الأكاديمية" data-en="Academic Tools">الأدوات الأكاديمية</h4>
-      <a href="/citation-generator.html" data-ar="مولد المراجع" data-en="Citation Generator">مولد المراجع</a>
-      <a href="/research-title.html" data-ar="عناوين البحث" data-en="Research Titles">عناوين البحث</a>
-      <a href="/research-outline.html" data-ar="خطة البحث" data-en="Research Outline">خطة البحث</a>
-      <a href="/academic-translator.html" data-ar="المترجم الأكاديمي" data-en="Academic Translator">المترجم الأكاديمي</a>
-      <a href="/paper-summary.html" data-ar="ملخص الورقة" data-en="Paper Summary">ملخص الورقة</a>
-    </div>
-    <div class="ft-col">
-      <h4 data-ar="روابط" data-en="Links">روابط</h4>
-      <a href="/pricing.html" data-ar="الاشتراكات" data-en="Pricing">الاشتراكات</a>
-      <a href="/blog/" data-ar="المقالات" data-en="Blog">المقالات</a>
-      <a href="/about.html" data-ar="من نحن" data-en="About">من نحن</a>
-      <a href="/contact.html" data-ar="تواصل" data-en="Contact">تواصل</a>
-      <a href="/privacy.html" data-ar="الخصوصية" data-en="Privacy">الخصوصية</a>
+    <div class="footer-bottom">
+      <span>© 2026 ProScholersTools. Free academic tools powered by <a href="https://www.anthropic.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.4)">Claude AI (Anthropic)</a>.</span>
+      <span>Not affiliated with Chicago Manual of Style, APA, or MLA.</span>
     </div>
   </div>
-  <div class="ft-bottom">
-    <div class="ft-copy" data-ar="© 2025 AITools. جميع الحقوق محفوظة." data-en="© 2025 AITools. All rights reserved.">© 2025 AITools. جميع الحقوق محفوظة.</div>
-    <div class="ft-copy" data-ar="🌿 Gemini API مجاني — بدون فاتورة" data-en="🌿 Gemini API Free — No billing">🌿 Gemini API مجاني — بدون فاتورة</div>
-  </div>
-</div>
 </footer>
-<script src="/app.js"></script>
-</body></html>
+<script>
+/* ── CALL AI (via backend proxy — fully free, no limits) ── */
+async function callAI(prompt, _maxTokens) {
+  const r = await fetch('/api', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ messages: [{ role: 'user', content: prompt }] }),
+  });
+  const d = await r.json();
+  if (!r.ok || d.error) throw { type: 'api_error', message: d.error || 'API error. Please try again.' };
+  return d.content?.map(c => c.text || '').join('
+') || 'No response received.';
+}
+
+/* ── GDPR-COMPLIANT ADSENSE LOADER ── */
+const PST_PUB = 'ca-pub-6119422909390809';
+function loadAdSense() {
+  try {
+    if (window._adsLoaded) return;
+    window._adsLoaded = true;
+    const s = document.createElement('script');
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + PST_PUB;
+    document.head.appendChild(s);
+    s.onload = () => {
+      document.querySelectorAll('.adsbygoogle:not([data-adsbygoogle-status])').forEach(() => {
+        try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
+      });
+    };
+  } catch(e) {}
+}
+
+function initCookies() {
+  try {
+    const consent = localStorage.getItem('pst_cookie');
+    if (!consent) {
+      const b = document.getElementById('cookieBanner');
+      if (b) b.style.display = 'block';
+    } else if (consent === 'all') {
+      loadAdSense();
+    }
+  } catch {}
+}
+function acceptCookies(level) {
+  try { localStorage.setItem('pst_cookie', level); } catch {}
+  const b = document.getElementById('cookieBanner');
+  if (b) { b.style.transition = 'transform .3s'; b.style.transform = 'translateY(110%)'; }
+  if (level === 'all') loadAdSense();
+}
+
+/* ── FAQ TOGGLE ── */
+document.addEventListener('click', e => {
+  const f = e.target.closest('.faq-item');
+  if (f) f.classList.toggle('open');
+});
+
+/* ── INIT ── */
+document.addEventListener('DOMContentLoaded', initCookies);
+</script></body></html>
