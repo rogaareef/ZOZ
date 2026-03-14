@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+  import Head from 'next/head'; // إذا كنت تستخدم Next.js
+
+function MyTool() {
+  return (
+    <>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "AI Summarizer"
+          })}
+        </script>
+      </Head>
+      <div>محتوى الأداة هنا</div>
+    </>
+  );
+}
   <meta name="description" content="Pro Scholar Tools: The world's leading AI platform for researchers. Paraphrasing, Summarizing, and Legal AI tools created by PhD experts.">
 <meta name="author" content="Mohamed Rabie Ali Areef">
 <link rel="canonical" href="https://www.proscholartools.com/">
